@@ -10,6 +10,7 @@ import java.time.Period;
 import java.util.*;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -32,6 +33,7 @@ public class StreamAssignment {
         List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 
         //Write code here
+        Stream.of(integers).forEach(System.out::println);
 
     }
 
@@ -70,6 +72,7 @@ public class StreamAssignment {
 
         //Write code here
 
+
         assertNotNull(females);
         assertEquals(expectedSize, females.size());
     }
@@ -85,6 +88,7 @@ public class StreamAssignment {
         //Write code here
 
         assertNotNull(dates);
+        assertTrue(dates instanceof TreeSet);
         assertEquals(expectedSize, dates.size());
     }
 
