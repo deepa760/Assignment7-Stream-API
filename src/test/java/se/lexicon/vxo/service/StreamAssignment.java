@@ -4,14 +4,12 @@ import org.junit.jupiter.api.Test;
 import se.lexicon.vxo.model.Gender;
 import se.lexicon.vxo.model.Person;
 import se.lexicon.vxo.model.PersonDto;
-
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -59,6 +57,11 @@ public class StreamAssignment {
         int expected = 90;
 
         //Write code here
+        amount=people.stream()
+                .filter(Person -> Person.getLastName()
+                        .equalsIgnoreCase("Andersson"))
+                .count();
+
 
         assertEquals(expected, amount);
     }
@@ -70,6 +73,11 @@ public class StreamAssignment {
     public void task4(){
         int expectedSize = 4988;
         List<Person> females = null;
+
+
+        females = people.stream()
+                .filter(Person -> Person.getGender() == Gender.FEMALE)
+                .collect(Collectors.toList());
 
         //Write code here
 
@@ -86,7 +94,8 @@ public class StreamAssignment {
         int expectedSize = 8882;
         Set<LocalDate> dates = null;
 
-        //Write code here
+        List<LocalDate> birthDates= people.stream().map(Person::getDateOfBirth)
+          .collect(Collectors.toList());System.out.println(birthDates);
 
         assertNotNull(dates);
         assertTrue(dates instanceof TreeSet);
@@ -99,11 +108,13 @@ public class StreamAssignment {
     @Test
     public void task6(){
         int expectedLength = 3;
-
         Person[] result = null;
+        result = people.stream()
+                .filter(Person -> Person.getFirstName().equalsIgnoreCase("Erik"))
+                .toArray(Person[]::new);
+
 
         //Write code here
-
         assertNotNull(result);
         assertEquals(expectedLength, result.length);
     }
