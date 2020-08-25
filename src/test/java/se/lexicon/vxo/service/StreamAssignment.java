@@ -148,8 +148,11 @@ public class StreamAssignment {
         Optional<Person> optional = null;
 
         //Write code here
-    
 
+
+
+        optional = people.stream()
+                .min(Comparator.comparing(Person::getDateOfBirth));
 
 
         assertNotNull(optional);
@@ -165,7 +168,10 @@ public class StreamAssignment {
         LocalDate date = LocalDate.parse("1920-01-01");
 
         List<PersonDto> dtoList = null;
-
+        dtoList = people.stream()
+                .filter(Person -> Person.getDateOfBirth().isBefore(date))
+                .map(personDto -> new PersonDto(personDto.getPersonId(), personDto.getFirstName()+" "+personDto.getLastName()))
+                .collect(Collectors.toList());
         //Write code here
 
         assertNotNull(dtoList);
