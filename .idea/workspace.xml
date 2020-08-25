@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ff00803-18bb-499f-bcdf-a276f6a9fd07" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gYeSrFMEO3G8gdpoLVieIJQbQR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ff00803-18bb-499f-bcdf-a276f6a9fd07" name="Default Changelist" comment="" />
+      <created>1598295955538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598295955538</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Streams -Assignment-Task1">
+      <created>1598303925997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598303925997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Streams -Assignment-Task1">
+      <created>1598304130115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598304130115</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Streams -Assignment-Task1">
+      <created>1598305060428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598305060428</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Streams -Assignment-Task1">
+      <created>1598338125500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598338125500</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Streams -Assignment-Task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams -Assignment-Task1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1598338120658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598338120658" />
+    <state x="543" y="275" key="Github.Dialog.Accounts.Choose" timestamp="1598338168506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="543" y="275" key="Github.Dialog.Accounts.Choose/0.0.1366.728@0.0.1366.728" timestamp="1598338168506" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598338131163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598338131163" />
+  </component>
+</project>
