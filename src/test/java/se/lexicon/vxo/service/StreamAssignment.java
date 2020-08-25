@@ -148,6 +148,12 @@ public class StreamAssignment {
         Optional<Person> optional = null;
 
         //Write code here
+        optional = people.stream()
+                .min(Comparator.comparing(Person::getDateOfBirth));
+
+
+
+
 
         assertNotNull(optional);
         assertEquals(expectedBirthDate, optional.get().getDateOfBirth());
