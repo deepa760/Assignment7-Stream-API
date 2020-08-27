@@ -264,6 +264,8 @@ public class StreamAssignment {
         Map<String, List<Person>> personMap = null;
 
         //Write code here
+        personMap = people.stream()
+                .collect(Collectors.groupingBy(Person::getLastName));
 
         assertNotNull(personMap);
         assertEquals(expectedSize, personMap.size());
@@ -276,7 +278,7 @@ public class StreamAssignment {
     public void task14(){
         LocalDate[] _2020_dates = null;
 
-        //Write code here
+
 
 
         assertNotNull(_2020_dates);
