@@ -243,8 +243,8 @@ public class StreamAssignment {
 
         result = people.stream()
                 .filter(Person -> Person.getFirstName()
-                        .equalsIgnoreCase(new StringBuilder(Person.getFirstName())
-                                .reverse().toString()))
+                .equalsIgnoreCase(new StringBuilder(Person.getFirstName())
+                .reverse().toString()))
                 .map(Person::getFirstName)
                 .distinct()
                 .sorted()
