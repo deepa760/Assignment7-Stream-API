@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ff00803-18bb-499f-bcdf-a276f6a9fd07" name="Default Changelist" comment="">
+    <list default="true" id="6ff00803-18bb-499f-bcdf-a276f6a9fd07" name="Default Changelist" comment="Streams -Assignment-Tasknew">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/se/lexicon/vxo/service/StreamAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/se/lexicon/vxo/service/StreamAssignment.java" afterDir="false" />
     </list>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598346245460</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Streams -Assignment-Tasknew">
+      <created>1598356873626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598356873626</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -95,21 +102,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Streams -Assignment-Tasknew" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1598346243099">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1598358596486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598346243099" />
-    <state x="543" y="275" key="Github.Dialog.Accounts.Choose" timestamp="1598346271992">
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598358596486" />
+    <state x="543" y="275" key="Github.Dialog.Accounts.Choose" timestamp="1598356888719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="543" y="275" key="Github.Dialog.Accounts.Choose/0.0.1366.728@0.0.1366.728" timestamp="1598346271992" />
+    <state x="543" y="275" key="Github.Dialog.Accounts.Choose/0.0.1366.728@0.0.1366.728" timestamp="1598356888719" />
     <state x="481" y="243" key="Github.ShareDialog" timestamp="1598341784868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="481" y="243" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1598341784868" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598346266761">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1598356882469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598346266761" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598356882469" />
   </component>
 </project>

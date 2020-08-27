@@ -6,6 +6,8 @@ import se.lexicon.vxo.model.Person;
 import se.lexicon.vxo.model.PersonDto;
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
 import java.util.*;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
@@ -190,6 +192,18 @@ public class StreamAssignment {
         Optional<String> optional = null;
 
         //Write code here
+        DateTimeFormatter format2 = new DateTimeFormatterBuilder()
+                .parseCaseInsensitive()
+                .appendPattern("EEEE dd MMMM YYYY")
+                .toFormatter(Locale.ENGLISH);
+
+        optional = Optional.of(people.stream()
+                .filter(Person -> Person.getPersonId() == 5914)
+                .findFirst()
+                .get().getDateOfBirth()
+                .format(format2)
+                .toUpperCase());
+
 
         assertNotNull(optional);
         assertTrue(optional.isPresent());
@@ -208,6 +222,9 @@ public class StreamAssignment {
         double averageAge = 0;
 
         //Write code here
+        averageAge = people.stream()
+                .collect(Collectors.averagingInt(personToAge));
+
 
         assertTrue(averageAge > 0);
         assertEquals(expected, averageAge, .01);
@@ -223,6 +240,16 @@ public class StreamAssignment {
         String[] result = null;
 
         //Write code here
+
+        result = people.stream()
+                .filter(Person -> Person.getFirstName()
+                        .equalsIgnoreCase(new StringBuilder(Person.getFirstName())
+                                .reverse().toString()))
+                .map(Person::getFirstName)
+                .distinct()
+                .sorted()
+                .toArray(String[]::new);
+
 
         assertNotNull(result);
         assertArrayEquals(expected, result);
